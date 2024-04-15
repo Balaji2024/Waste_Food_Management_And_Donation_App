@@ -30,7 +30,7 @@ function SendMail($customerMail, $subject, $body)
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = 'tls';
         $mail->Username = 'feed.n.joy@gmail.com';
-        $mail->Password = 'ywpeyaznyyunlvfi';
+        $mail->Password = 'ywyyunlvfi';
 
         //Recipients
         $mail->setFrom("feed.n.joy@gmail.com", "Deccan Bank");
